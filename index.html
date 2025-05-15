@@ -20,23 +20,24 @@
             overflow: hidden;
             padding: 20px 0;
         }
-        header {
+        .container-hero {
+            text-align: center;
+            padding: 10px 0;
             background: #333;
             color: #fff;
-            padding-top: 0;
-            min-height: 70px;
-            border-bottom: #0779e4 3px solid;
         }
-        header h1 {
-            text-align: center;
-            text-transform: uppercase;
+        .container-hero h1 {
+            font-size: 2.5em;
             margin: 0;
+        }
+        .container-hero p {
+            font-size: 1.2em;
         }
         header img {
            display: block; /* Make the image a block element */
            max-width: 100%; /* Ensure image is responsive */
            height: auto; /* Maintain aspect ratio */
-           margin: 0 auto 1px auto; /* Center the image and add some bottom margin */
+           margin: 0 auto; /* Center the image and add some bottom margin */
         }
         section {
             padding: 20px 0;
@@ -66,10 +67,13 @@
 <body>
     <header>
 <img src="HAILEYBAILEY9.jpg" alt="Your Name - Header Image">
-        <div class="container">
-            <h1>Your Name</h1>
-        </div>
     </header>
+
+    <section id="hero">
+        <div class="container-hero">
+            <h1>Dogs 🐶 Product 📦 AI Automation 🤖 Fast-Low-Code 🧩</h1>
+            <p>Explore my projects, skills, and experience in the world of technology.</p>
+        </div>
 
     <section id="introduction">
         <div class="container">
